@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) PROG's Team (Mustafa AlSihati Team).
+  ~ This Project is currently an academic project for educational purposes.
+  ~ This Project May be used for benefits for the working team.
+  ~ Fully owned by the application developers.
+  -->
+
+<resources>
+    <color name="colorPrimary">#dd861f</color>
+    <color name="colorPrimaryDark">#dd861f</color>
+    <color name="colorAccent">#231f20</color>
+</resources>

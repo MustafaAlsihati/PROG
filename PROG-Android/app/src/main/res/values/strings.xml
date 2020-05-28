@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright (c) PROG's Team (Mustafa AlSihati Team).
+  ~ This Project is currently an academic project for educational purposes.
+  ~ This Project May be used for benefits for the working team.
+  ~ Fully owned by the application developers.
+  -->
+
+<resources>
+    <string name="app_name">PROG</string>
+    <string name="title_home">Home</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_search">Search</string>
+    <string name="my_tasks"><b>My Tasks</b> <i>(Hint: Long press on task to view info)</i></string>
+    <string name="my_projects"><b>My Projects</b><i>(Projects you created)</i></string>
+    <string name="all_projects"><b>All Projects</b> <i>(Including projects you created)</i></string>
+    <string name="uncompleted_tasks"><i>(Hint: Long press on task to delete/edit)</i></string>
+    <string name="completed_tasks"><b>Completed</b></string>
+    <string name="task_user_assigned"><b>User Assigned: </b></string>
+    <string name="task_due_date"><b>Due Date: </b></string>
+    <string name="Task_status"><b>Status: </b></string>
+    <string name="forgot_password"><u>Reset Password?</u></string>
+</resources>

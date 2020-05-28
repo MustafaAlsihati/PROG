@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) PROG's Team (Mustafa AlSihati Team).
+  ~ This Project is currently an academic project for educational purposes.
+  ~ This Project May be used for benefits for the working team.
+  ~ Fully owned by the application developers.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/ic_assignment_black_48dp"
+        android:title="@string/title_tasks" />
+
+    <item
+        android:id="@+id/navigation_projects"
+        android:icon="@drawable/ic_people_black_48dp"
+        android:title="@string/title_projects" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_48dp"
+        android:title="@string/title_search" />
+
+</menu>

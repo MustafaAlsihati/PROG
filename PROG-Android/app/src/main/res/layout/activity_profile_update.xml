@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) PROG's Team (Mustafa AlSihati Team).
+  ~ This Project is currently an academic project for educational purposes.
+  ~ This Project May be used for benefits for the working team.
+  ~ Fully owned by the application developers.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#231f20">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateEmailLabel"
+        android:text="Enter your new Information in the fields below then submit"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="13dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email_update"
+        android:hint="New Email Address"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ACACAC"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bio_update"
+        android:hint="About yourself (Max 150 character)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ACACAC"
+        android:textCursorDrawable="@null"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password_email_update"
+        android:hint="Enter Password To Confirm"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ACACAC"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/update_email_Btn"
+        android:textSize="16dp"
+        android:textColor="#FFF"
+        android:background="@drawable/btns"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="10"
+        android:textAllCaps="false"
+        android:text="UPDATE"/>
+
+</LinearLayout>

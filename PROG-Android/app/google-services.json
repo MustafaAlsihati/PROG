@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1030655098060",
+    "firebase_url": "https://prog-32d72.firebaseio.com",
+    "project_id": "prog-32d72",
+    "storage_bucket": "prog-32d72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030655098060:android:0a22607248978ae00c5669",
+        "android_client_info": {
+          "package_name": "iau.mustafa.prog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030655098060-ffrdf1lu7095494s6ph014pgqvsuoq2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iau.mustafa.prog",
+            "certificate_hash": "4551b2632c8bbdac19368ee908e36918b7837322"
+          }
+        },
+        {
+          "client_id": "1030655098060-9vn09bkma5pa9qf4fght8tdc5vh693bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iau.mustafa.prog",
+            "certificate_hash": "a3febbee8aea85e2f5f995fbbe7ad20cdbd63659"
+          }
+        },
+        {
+          "client_id": "1030655098060-2b2ok4rfnbe0hcmu9qvf5l7logefgfbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeQ5-KdA2DRH8i8Rg3ZKozevlNjhBowqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030655098060-2b2ok4rfnbe0hcmu9qvf5l7logefgfbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
