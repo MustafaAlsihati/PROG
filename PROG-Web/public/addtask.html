@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Task - PROG</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/general.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="js/materialize.min.js"></script>
+  <!-- Firebase -->
+  <script src="/__/firebase/7.10.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.10.0/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.10.0/firebase-database.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="js/user.js"></script>
+  <!-- Firebase -->
+  <script>
+    $(document).ready(function () {
+      $('.dropdown-trigger').dropdown();
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="profileedit.html" class="text-orange">Profile Edit</a></li>
+      <li><a href="#" id="LogoutBtn" class="text-red">Logout</a></li>
+      <script src="js/logout.js"></script>
+    </ul>
+    <nav class="nav-extended orange darken-1">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper orange darken-1">
+            <a href="index.html" class="brand-logo marginleft">PROG</a>
+            <ul class="right" style="font-style: italic;">
+              <li><a class="dropdown-trigger right" href="#" id="userName" data-target="dropdown1"><i
+                    class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="tasks.html">Tasks</a></li>
+          <li class="tab"><a href="joinedprojects.html">Joined Projects</a></li>
+          <li class="tab"><a href="myprojects.html">My Projects</a></li>
+          <li class="tab"><a href="search.html">Search</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Header -->
+
+  <!-- Main -->
+  <main>
+    <div class="container center">
+      <div class="row z-depth-3">
+        <p class="orange-text left" style="margin-left: 10px !important;"><b><i>Create New Task:</i></b></p>
+        <div class="input-field col s12">
+          <input id="Task_Name" type="text" class="validate">
+          <label for="Task_Name">Task Name</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="Task_Desc" type="text" class="validate">
+          <label for="Task_Desc">Task Description</label>
+        </div>
+        <div class="input-field col s12">
+          <input type="text" id="Task_DueDate" class="datepicker">
+          <label for="Task_DueDate">Task Due Date</label>
+        </div>
+        <div class="col s12">
+          <label class="left">Assigned Member</label>
+          <select id="membersListSelect" class="browser-default border">
+            <option value="-1" disabled selected>Choose Member</option>
+          </select>
+        </div>
+        <div class="col s12">
+          <br><br>
+          <a onclick="createTask()" id="createTask" class="waves-effect waves-light btn orange">Create Task</a>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/addtasks.js"></script>
+  <!-- Main -->
+
+  <!-- Footer -->
+  <footer class="page-footer orange darken-1">
+    <div class="footer-copyright">
+      <div class="container">
+        Copyright© PROG - 2020
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>

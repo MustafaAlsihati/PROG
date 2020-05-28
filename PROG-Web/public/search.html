@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - PROG</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/materialize.min.js"></script>
+    <!-- Firebase -->
+    <script src="/__/firebase/7.10.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.10.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.10.0/firebase-database.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="js/user.js"></script>
+    <!-- Firebase -->
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-trigger').dropdown();
+      });
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="profileedit.html" class="text-orange">Profile Edit</a></li>
+        <li><a href="#" id="LogoutBtn" class="text-red">Logout</a></li>
+        <script src="js/logout.js"></script>
+      </ul>
+      <nav class="nav-extended orange darken-1">
+          <div class="navbar-fixed">
+              <nav>
+                <div class="nav-wrapper orange darken-1">
+                  <a href="index.html" class="brand-logo marginleft">PROG</a>
+                  <ul class="right" style="font-style: italic;">
+                    <li><a class="dropdown-trigger right" href="#" id="userName" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i></a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="tasks.html">Tasks</a></li>
+              <li class="tab"><a href="joinedprojects.html">Joined Projects</a></li>
+              <li class="tab"><a href="myprojects.html">My Projects</a></li>
+              <li class="tab"><a class="active" href="search.html">Search</a></li>
+          </ul>
+          </div>
+      </nav>
+      <!-- Search Bar -->
+      <nav>
+          <div class="nav-wrapper orange lighten-1">
+              <div class="input-field">
+                  <input onchange="getResults()" id="searchField" type="search" required>
+                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+              </div>
+          </div>
+      </nav>
+    </header>
+    <!-- Header -->
+    
+    <!-- Main -->
+    <main>
+      <p class="orange-text" style="margin-left: 10px !important;"><b><i>Results:</i></b></p>
+      <div class="collection topmargin" id="searchResult">
+        <!-- Search Results Here -->
+      </div>
+    </main>
+    <script src="js/search.js"></script>
+    <!-- Main -->
+
+    <!-- Footer -->
+    <footer class="page-footer orange darken-1">
+      <div class="footer-copyright">
+        <div class="container">
+          Copyright© PROG - 2020
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+    
+</body>
+</html>

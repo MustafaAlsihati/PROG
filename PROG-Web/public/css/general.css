@@ -1,0 +1,52 @@
+::placeholder {
+    color: #8f8f8f;
+}
+.container{
+    margin-top: 1%;
+}
+.collection-item{
+    color: #424242 !important;
+}
+.topmargin{
+    margin-top: 1%;
+}
+.marginleft{
+    margin-left: 20px;
+}
+.text-orange{
+    color: #FB8C00 !important;
+}
+.text-red{
+    color: #ff0000 !important;
+}
+.completed{
+    color: green !important;
+    text-decoration: line-through !important;
+}
+blockquote{
+    margin:20px 0;
+    padding-left:1.5rem;
+    font-style: italic;
+    border-left:5px solid #c2c2c2 !important;
+}
+.full {
+    width: 100%;
+}
+.border{
+    border-bottom: 1px solid #9E9E9E !important;
+}
+.datepicker-date-display {
+    background-color:#FB8C00 !important;
+}
+.datepicker-table td.is-selected {
+    background-color: #FB8C00 !important;
+}
+.datepicker-table td.is-today {
+    color: #FB8C00 !important;
+}
+.datepicker-done {
+    color: #FB8C00;
+}
+.datepicker-cancel{
+    color: gray;
+}
